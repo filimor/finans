@@ -19,7 +19,7 @@
   <body>
     <header><!-- Início do cabeçalho -->
 			<nav class="navbar navbar-expand-sm navbar-light bg-warning">
-				<div clas="container">
+				<div class="container">
 					<a href="#" class="navbar-brand">
 						<img src="img/logo.png" width="142" alt="Logotipo">
 					</a>
@@ -40,8 +40,8 @@
 							<li class="nav-item">
 								<a href="" class="nav-link">Preços</a>
 							</li>
-							<li class="nav-item ml-4">
-								<a href="" class="btn btn-outline-light">Entrar</a>
+							<li class="nav-item">
+								<a href="" class="btn btn-outline-light ml-4">Entrar</a>
 							</li>
 						</ul>
 					</div>
@@ -51,11 +51,33 @@
 		<section id="home"><!-- Início da seção Home -->
 			<div clas="container">
 				<div class="row">
-					<div class="col-md-6">
-						Texto
-					</div>
-					<div class="col-md-6">
-						Imagem
+					<div class="col-md-6 d-flex"><!-- Textos da seção -->
+						<div class="align-self-center">
+							<h1 class="display-4">Suas contas, descomplicadas</h1>
+							<p>
+								Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+							</p>
+							<form class="mt-4 mb-4">
+								<div class="input-group input-group-lg">
+									<input type="text" placeholder="Seu e-mail" class="form-control" />
+									<div class="input-group-append">
+										<button type="button" class="btn btn-primary">Cadastre-se</button>
+									</div>
+								</div>
+							</form>
+							<p>
+								Disponível para
+								<a href="" class="btn btn-outline-light">
+									<i class="fab fa-android"></i>
+								</a>
+								<a href="" class="btn btn-outline-light">
+									<i class="fab fa-apple"></i>
+								</a>
+							</p>
+						</div>
+					</div><!-- /Fim Textos da seção -->
+					<div class="col-md-6 d-none d-md-block">
+						<img src="img/capa-mulher.png" alt="Imagem ilustrativa" />
 					</div>
 				</div>
 			</div>
